@@ -87,16 +87,16 @@ This should take less than 10 minutes
 
 ## Output (1):
 The "prepare_reference.sh" script will produce the following output files:
-1. new_myfmt.gff: as in "new my_format gff", is a file that I use downstream to build the mutant isoforms. Each row corresponds to an exon, in order (with the :# suffix indicating its sequential order in the isoform), with its genomic coordinates, strand, and exon/transcript/gene Ensembl IDs.
+1. "new_myfmt.gff": as in "new my_format gff", is a file that I use downstream to build the mutant isoforms. Each row corresponds to an exon, in order (with the :# suffix indicating its sequential order in the isoform), with its genomic coordinates, strand, and exon/transcript/gene Ensembl IDs.
 
-2. tx_exon_map.tsv: as in "transcript-exon map", is a similar file as above but it is "isoform-centered". Each row is an isoform, where:
+2. "tx_exon_map.tsv": as in "transcript-exon map", is a similar file as above but it is "isoform-centered". Each row is an isoform, where:
     2.1 The first column is its ENST ID, 
     2.2 Second column is the sequential order of exons conforming it, and 
     2.3 Third column is the corresponding ENSG (gene) ID
 
-3. exons.final.fasta: is a fasta file with all reference (or wild-type) exon sequences. This is used downstream in conjunction with the previous files to sequentially concatenate exons and build an isoform.
+3. "exons.final.fasta": is a fasta file with all reference (or wild-type) exon sequences. This is used downstream in conjunction with the previous files to sequentially concatenate exons and build an isoform.
 
-4. ref_MANE_transcriptome.fa: is the transcriptome fasta, with only MANE-subset genes (should be around ~19k transcripts).
+4. "ref_MANE_transcriptome.fa": is the transcriptome fasta, with only MANE-subset genes (should be around ~19k transcripts).
 
 5. MANE-index/: is the Salmon-generated index of the MANE transcriptome fasta from above. This is used to quantify "traditional" gene expression counts, which disregards reads mutations.
 
