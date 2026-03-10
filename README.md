@@ -72,9 +72,10 @@ MAD-GE/
 Before processing individual samples, you must build the customized reference and the base Salmon index.
 The transcriptome I used was the MANE subset (Matched Annotation from NCBI and EMBL-EBI).
 
-Navigate to your reference folder:
+(Create and) Navigate to your reference folder:
 
 ```bash
+mkdir -p  ref
 cd ref/
 ```
 
