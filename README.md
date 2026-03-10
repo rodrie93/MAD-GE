@@ -87,7 +87,7 @@ This should take less than 10 minutes
 
 ## Output (1):
 The "prepare_reference.sh" script will produce the following output files:
-1. new_myfmt.gff: as in "new my_format gff", is a file that I use downstream to build the mutant isoforms. Each row corresponds to an exon, in order (with the :# suffix indicating its sequential order in the isoform), with its genomic coordinates, strand, and exon/transcript/gene Ensemble IDs.
+1. new_myfmt.gff: as in "new my_format gff", is a file that I use downstream to build the mutant isoforms. Each row corresponds to an exon, in order (with the :# suffix indicating its sequential order in the isoform), with its genomic coordinates, strand, and exon/transcript/gene Ensembl IDs.
 
 2. tx_exon_map.tsv: as in "transcript-exon map", is a similar file as above but it is "isoform-centered". Each row is an isoform, where:
     2.1 The first column is its ENST ID, 
