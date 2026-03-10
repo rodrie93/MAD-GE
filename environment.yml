@@ -1,0 +1,12 @@
+name: mut_pipe
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - bedtools>=2.29.0
+  - bcftools
+  - bedops
+  - gffread
+  - salmon>=1.9.0
