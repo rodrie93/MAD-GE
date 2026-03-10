@@ -16,7 +16,7 @@ MAD-GE relies on standard bioinformatics tools:
 If you are running this on an HPC cluster, you can simply clone the repository and load your local modules before executing the pipeline. This is how the pipeline was originally developed.
 
 ```bash
-git clone [https://github.com/rodrie93/MAD-GE.git](https://github.com/rodrie93/MAD-GE.git)
+git clone https://github.com/rodrie93/MAD-GE.git
 cd MAD-GE
 
 # Example module loading (adjust to your cluster's naming conventions)
@@ -29,7 +29,7 @@ module load BCFtools
 **Option B: Conda/Mamba**
 ```bash
 # Clone the repository
-git clone [https://github.com/rodrie93/MAD-GE.git](https://github.com/rodrie93/MAD-GE.git)
+git clone https://github.com/rodrie93/MAD-GE.git
 cd MAD-GE
 
 # Create and activate the environment
