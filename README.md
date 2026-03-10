@@ -37,11 +37,11 @@ conda env create -f environment.yml
 conda activate mut_pipe
 ```
 
-💻 OS Compatibility
+💻 OS Compatibility:
 MAD-GE is written using Bash and Python. It runs natively on Linux and macOS. Windows users must use the Windows Subsystem for Linux (WSL) (e.g., Ubuntu on WSL2) to execute the .sh wrappers.
 
 
-📁 Directory Structure
+📁 Directory Structure:
 MAD-GE expects the following organizational structure to run smoothly across multiple patient samples. Ensure your working directory looks like this before executing the pipeline:
 
 ```text
