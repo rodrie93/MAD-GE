@@ -23,7 +23,7 @@ cd MAD-GE
 module load BEDTOOLS
 module load BCFtools
 
-# Make sure all required tools are are in your PATH
+# Make sure all required tools are in your PATH
 ```
 
 **Option B: Conda/Mamba**
